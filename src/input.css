@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Primary */
+        --pale-blue: 225deg 100% 94%;
+        --bright-blue: 245deg 75% 52%;
+
+        /* Neutral */
+        --very-pale-blue: 225deg 100% 98%;
+        --desaturated-blue: 224deg 23% 55%;
+        --dark-blue: 223deg 47% 23%;
+    }
+}

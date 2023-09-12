@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="/dist/output.css" rel="stylesheet" />
+
+        <title>Frontend Mentor | Order summary card</title>
+    </head>
+    <body
+        class="h-screen flex flex-col items-center justify-center bg-pale-blue"
+    >
+        <main
+            class="w-[330px] sm:w-[445px] flex flex-col bg-white rounded-2xl overflow-hidden shadow-lg shadow-bright-blue/10"
+        >
+            <form action="#" method="GET" class="font-redhd">
+                <div class="shrink-0">
+                    <img
+                        class="w-full"
+                        src="../images/illustration-hero.svg"
+                        alt="someone listen to music"
+                    />
+                </div>
+                <div
+                    class="px-6 py-8 sm:px-12 sm:py-10 flex flex-col items-center gap-6"
+                >
+                    <h1
+                        class="text-2xl mb-[-8px] antialiased text-dark-blue font-black sm:text-3xl"
+                    >
+                        Order Summary
+                    </h1>
+
+                    <p
+                        class="text-center text-desaturated-blue px-2 sm:text-[17px]"
+                    >
+                        You can now listen to millions of songs, audiobooks, and
+                        podcasts on any device anywhere you like!
+                    </p>
+
+                    <div
+                        class="banner-plan flex gap-4 items-center justify-center bg-very-pale-blue rounded-2xl w-full p-4 sm:p-6"
+                    >
+                        <img
+                            class="shrink-0"
+                            src="../images/icon-music.svg"
+                            alt="icon of a musical note"
+                        />
+                        <div class="ml-1 text-sm text-dark-blue sm:text-lg">
+                            <h2 class="font-black">Annual Plan</h2>
+                            <span class="text-desaturated-blue font-medium"
+                                >$59.99/year</span
+                            >
+                        </div>
+
+                        <a
+                            href="#"
+                            class="font-bold ml-auto text-sm underline text-bright-blue hover:brightness-200 hover:no-underline duration-300 ease-in-out sm:text-md"
+                            >Change</a
+                        >
+                    </div>
+
+                    <button
+                        class="font-bold py-3 before:rounded-xl w-full before:absolute before:-inset-1 before:bg-bright-blue relative inline-block before:hover:brightness-200 before:duration-300 ease-in-out shadow-xl shadow-bright-blue/25 sm:mt-3"
+                    >
+                        <span class="relative text-white"
+                            >Proceed to Payment</span
+                        >
+                    </button>
+
+                    <button
+                        class="font-bold block text-desaturated-blue hover:text-dark-blue duration-300 ease-in-out sm:mt-2"
+                    >
+                        Cancel Order
+                    </button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="fixed bottom-2 text-center">
+            <div class="attribution">
+                Challenge by
+                <a
+                    class="text-bright-blue hover:brightness-200 duration-300"
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor</a
+                >. Coded by
+                <a
+                    class="text-bright-blue hover:brightness-200 duration-300"
+                    href="https://github.com/M-its"
+                    target="_blank"
+                    >Mitsrael Souza</a
+                >.
+            </div>
+        </footer>
+    </body>
+</html>
