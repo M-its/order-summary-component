@@ -56,6 +56,12 @@ In this project I tried for the first time to use the Tailwind framework.
 
 Tailwind is a customizable framework and to use it on this project i had to make some customizations on it see how bellow:
 
+```html
+<div
+    class="absolute inset-x-0 top-0 inset-y-[35rem] bg-center bg-cover bg-[url('/images/pattern-background-mobile.svg')] sm:bg-[url('/images/pattern-background-desktop.svg')] sm:h-screen sm:inset-y-[-25rem]"
+></div>
+```
+
 ```css
 theme: {
         extend: {
