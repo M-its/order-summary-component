@@ -20,19 +20,24 @@
         <link href="./dist/output.css" rel="stylesheet" />
 
         <title>Frontend Mentor | Order summary card</title>
+        <style>
+            .background {
+                background-image: url("./images/pattern-background-mobile.svg");
+            }
+
+            @media (min-width: 640px) {
+                .background {
+                    background-image: url("./images/pattern-background-desktop.svg");
+                }
+            }
+        </style>
     </head>
     <body
         class="h-screen flex flex-col items-center justify-center bg-pale-blue"
     >
         <!-- wave background -->
         <div
-            class="absolute inset-x-0 top-0 inset-y-[35rem] bg-center bg-cover sm:h-screen sm:inset-y-[-25rem]"
-            style="
-                background-image: url('./images/pattern-background-mobile.svg');
-                @media (min-width: 640px) {
-                    background-image: url('./images/pattern-background-desktop.svg');
-                }
-            "
+            class="absolute inset-x-0 top-0 inset-y-[35rem] bg-center bg-cover sm:h-screen sm:inset-y-[-25rem] background"
         ></div>
 
         <main
